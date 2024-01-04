@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>Chris Brown Portfolio</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom fonts for this template -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
+      rel="stylesheet"
+    />
+    <link
+      href="vendor/font-awesome/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet" />
+    <link
+      href="vendor/simple-line-icons/css/simple-line-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Custom styles for this template -->
+    <!-- <link href="css/resume.min.css" rel="stylesheet"> -->
+    <link href="css/resume.css" rel="stylesheet" />
+  </head>
+
+  <body id="page-top">
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
+      id="sideNav"
+    >
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none">Chris Brown Portfolio</span>
+        <span class="d-none d-lg-block">
+          <img
+            class="img-fluid img-profile rounded-circle mx-auto mb-2"
+            src="img/profile.jpg"
+            alt=""
+          />
+        </span>
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#interests"
+              >Areas of Interest
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#experience"
+              >Experience</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#education"
+              >Education</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid p-0">
+      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+        <div class="my-auto">
+          <h1 class="mb-0">
+            Chris
+            <span class="text-primary">Brown</span>
+          </h1>
+          <div class="subheading mb-5">
+            <a href="mailto:chrisbrown1@hotmail.ca">chrisbrown1@hotmail.ca</a>
+          </div>
+          <p class="mb-5">
+            <b>
+              Passionate C# backend & fullstack developer with interests in .NET
+              & ASP.NET Core, microservice architecture, containerization and
+              cybersecurity.
+            </b>
+            <i>Check out my blog, GitHub and LinkedIn below.</i>
+          </p>
+
+          <ul class="list-inline list-social-icons mb-0">
+            <li class="list-inline-item">
+              <a href="https://chrisbrown1.substack.com/">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-pencil fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://github.com/chrisbrown-01">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.linkedin.com/in/chrisbrown1000/">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section
+        class="resume-section p-3 p-lg-5 d-flex flex-column"
+        id="projects"
+      >
+        <div class="my-auto">
+          <h2 class="mb-5">Projects</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">
+                <a href="https://github.com/chrisbrown-01/PokemonDB">
+                  PokemonDB
+                  <i class="fa fa-external-link fa-s" aria-hidden="true"></i>
+                </a>
+              </h3>
+              <div class="subheading mt-1 mb-1">
+                A website where users can search for Pokemon, select favourites,
+                compare stats and perform advanced searches using filters.
+              </div>
+              <ul>
+                <li>
+                  React frontend consumes JSON responses served by backend
+                  ASP.NET Core REST API
+                </li>
+                <li>Database and caching with SQL Server, MongoDB and Redis</li>
+                <li>
+                  Designed for microservice deployment using Docker Compose and
+                  Docker Containers
+                </li>
+                <li>
+                  Unit/middleware/integration test suite using xUnit, Moq,
+                  AutoFixture and FluentAssertion
+                </li>
+                <li>
+                  Healthchecks, exception handling middleware and WatchDog
+                  (NuGet) logging
+                </li>
+                <button class="btn toggleSection">Display Project Demo</button>
+              </ul>
+              <div class="image-container">
+                <img
+                  data-src="img/pokemondb-gif.gif"
+                  alt="PokemonDB GIF"
+                  class="lazy"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">
+                <a href="">
+                  Job Scraper
+                  <i class="fa fa-external-link fa-s" aria-hidden="true"></i>
+                </a>
+              </h3>
+              <div class="subheading mt-1 mb-1">Automatically find jobs</div>
+              <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">
+                <a href="https://github.com/chrisbrown-01/LyricsFinder.NET"
+                  >LyricsFinder.NET
+                  <i class="fa fa-external-link fa-s" aria-hidden="true"></i>
+                </a>
+              </h3>
+              <div class="subheading mt-1 mb-1">
+                A web app that automatically retrieves and stores lyrics of
+                songs searched by the user.
+              </div>
+              <ul>
+                <li>
+                  ASP.NET Core MVC web app and REST API with full CRUD
+                  capabilities
+                </li>
+                <li>
+                  Database interactions for song info & user data performed with
+                  Entity Framework Core and SQL Server
+                </li>
+                <li>
+                  Filtering by favourited songs capability for authenticated
+                  users
+                </li>
+                <li>API authentication using JSON Web Tokens (JWT)</li>
+                <li>
+                  User role management & user deletion capabilities if
+                  authorized as admin or moderator
+                </li>
+                <li>
+                  Table result sorting, search term filtering, Excel file
+                  exporting features
+                </li>
+                <li>
+                  General exception handling & checking for duplicate/invalid
+                  song ID's in URL query string with ASP.NET Core filters
+                </li>
+                <button class="btn toggleSection">Display Project Demo</button>
+              </ul>
+              <div class="image-container">
+                <img
+                  data-src="img/lyricsfinder-gif.gif"
+                  alt="LyricsFinder.NET GIF"
+                  class="lazy"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">
+                <a href="https://github.com/chrisbrown-01/Gin-Rummy-Blazor"
+                  >Gin Rummy Blazor
+                  <i class="fa fa-external-link fa-s" aria-hidden="true"></i>
+                </a>
+              </h3>
+              <div class="subheading mt-1 mb-1">
+                Gin rummy card game playable in the web browser with Blazor
+                WebAssembly.
+              </div>
+              <ul>
+                <li>
+                  Containerized in Docker and hosted in Azure Web App for
+                  Containers available
+                  <a
+                    style="text-decoration: underline"
+                    href="https://gin-rummy-blazor.azurewebsites.net/"
+                    >here</a
+                  >
+                </li>
+                <li>Play against a simple computer agent</li>
+                <li>
+                  Algorithms implemented to ensure optimal meld (cards in hand)
+                  combinations are always selected
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">
+                <a
+                  href="https://github.com/chrisbrown-01/Azure-Betting-Odds-App"
+                >
+                  Azure Betting Odds App
+                  <i class="fa fa-external-link fa-s" aria-hidden="true"></i>
+                </a>
+              </h3>
+              <div class="subheading mt-1 mb-1">
+                A web app for making sports betting calculations.
+              </div>
+              <ul>
+                <li>
+                  Azure-hosted ASP.NET Core Razor pages web app and Azure
+                  Function available
+                  <a
+                    style="text-decoration: underline"
+                    href="https://betting-odds-app.azurewebsites.net/"
+                    >here</a
+                  >
+                </li>
+                <li>
+                  Displays winnings and total payout amounts upon user providing
+                  betting odds and the amount of the bet in dollars
+                </li>
+                <li>
+                  Azure Function retrieves MMA fighter betting odds when
+                  searched by fighter name
+                </li>
+                <li>
+                  Full CI/CD pipeline implemented with automated
+                  build/test/deploy upon new commits using Github Actions and
+                  Azure Deployment Center integration
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">
+                <a
+                  href="https://github.com/chrisbrown-01/Reddit-ScreenshotGifBot"
+                  >Reddit Screenshot GIF Bot
+                  <i class="fa fa-external-link fa-s" aria-hidden="true"></i>
+                </a>
+              </h3>
+              <div class="subheading mt-1 mb-1">
+                A Reddit bot that converts .gif files into their individual .jpg
+                images.
+              </div>
+              <ul>
+                <li>
+                  Bot is activated by directly mentioning its username via a
+                  comment on Reddit
+                </li>
+                <li>
+                  GIF linked in comment is deconstructed into individual image
+                  frames using SixLabors NuGet package
+                </li>
+                <li>
+                  Images are uploaded as .jpg files to Google Drive and an Imgur
+                  album
+                </li>
+                <li>
+                  20 MB file size limit for linked .gif file, extracted .jpg
+                  images larger than 5MB are skipped and not uploaded
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">
+                <a
+                  href="https://github.com/chrisbrown-01/SignalR-Drawing-TextDoc-Web-App"
+                  >Collaborative Drawing App
+                  <i class="fa fa-external-link fa-s" aria-hidden="true"></i>
+                </a>
+              </h3>
+              <div class="subheading mt-1 mb-1">
+                A web app for multiple users to collaboratively use a drawing
+                canvas and text area with real-time updates.
+              </div>
+              <ul>
+                <li>
+                  ASP.NET Core Razor pages project, also containerized using
+                  Docker
+                </li>
+                <li>
+                  Real-time updates across multiple browsers accomplished using
+                  SignalR and Javascript
+                </li>
+                <button class="btn toggleSection">Display Project Demo</button>
+              </ul>
+              <div class="image-container">
+                <img
+                  data-src="img/drawing-gif.gif"
+                  alt="Collaborative Drawing App GIF"
+                  class="lazy"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">
+                <a href="https://github.com/chrisbrown-01/ML-Email-Spam-Web-App"
+                  >Email Spam Detector App
+                  <i class="fa fa-external-link fa-s" aria-hidden="true"></i>
+                </a>
+              </h3>
+              <div class="subheading mt-1 mb-1">
+                A website that uses machine learning to determine if email
+                contents are spam.
+              </div>
+              <ul>
+                <li>
+                  ASP.NET Core Razor pages project, also containerized using
+                  Docker
+                </li>
+                <li>
+                  User enters an email subject and body and website gives
+                  prediction confidence % of the email being spam
+                </li>
+                <li>
+                  Machine learning model trained using ML.NET binary
+                  classification and Kaggle dataset
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+        <div class="my-auto">
+          <h2 class="mb-5">Skills</h2>
+          <ul class="list-inline list-icons">
+            <li class="list-inline-item list-icons-text">
+              <i class="devicons devicons-dotnet"></i>
+              <p>.NET, C#</p>
+            </li>
+            <li class="list-inline-item list-icons-text">
+              <i class="devicons devicons-docker"></i>
+              <p>Docker</p>
+            </li>
+            <li class="list-inline-item list-icons-text">
+              <i class="devicons devicons-database"></i>
+              <p>SQL, NoSQL</p>
+            </li>
+            <li class="list-inline-item list-icons-text">
+              <i class="devicons devicons-git"></i>
+              <p>Git</p>
+            </li>
+            <li class="list-inline-item list-icons-text">
+              <i class="devicons devicons-windows"></i>
+              <p>Windows</p>
+            </li>
+            <li class="list-inline-item list-icons-text">
+              <i class="devicons devicons-linux"></i>
+              <p>Linux</p>
+            </li>
+            <li class="list-inline-item list-icons-text">
+              <i class="devicons devicons-bootstrap"></i>
+              <p>Bootstrap</p>
+            </li>
+            <li class="list-inline-item list-icons-text">
+              <i class="devicons devicons-react"></i>
+              <p>React</p>
+            </li>
+            <li class="list-inline-item list-icons-text">
+              <i class="devicons devicons-javascript"></i>
+              <p>Javascript</p>
+            </li>
+            <li class="list-inline-item list-icons-text">
+              <i class="devicons devicons-python"></i>
+              <p>Python</p>
+            </li>
+          </ul>
+
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              ASP.NET Core MVC, Razor, Blazor, SignalR
+            </li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              REST &amp; GraphQL API, HTTP Communications, WebSockets
+            </li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Unit/middleware/integration testing with xUnit, Moq, AutoFixture
+              and FluentAssertions
+            </li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Service bus with MassTransit &amp; RabbitMQ message brokering
+            </li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              API Gateway &amp; Reverse Proxy with YARP
+            </li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Background jobs using Hangfire
+            </li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              Cybersecurity &amp; Ethical Hacking using Kali Linux
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section
+        class="resume-section p-3 p-lg-5 d-flex flex-column"
+        id="interests"
+      >
+        <div class="my-auto">
+          <h2 class="mb-5">Areas of Interest</h2>
+          <p>
+            HackTheBox / TryHackMe challenges and CTF's (TODO: blog posts best
+            of)
+          </p>
+          <p class="mb-0">Miscellaneous blog posts: (TODO:)</p>
+        </div>
+      </section>
+
+      <section
+        class="resume-section p-3 p-lg-5 d-flex flex-column"
+        id="experience"
+      >
+        <div class="my-auto">
+          <h2 class="mb-5">Experience</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Logistics Coordinator</h3>
+              <div class="subheading mb-3">Gerdau Ameristeel</div>
+              <p>
+                Performed job duties related to the scheduling, record keeping
+                and distribution of customs paperwork for shipments being
+                transported across Canada and into the USA. Wrote VB.NET scripts
+                to automate export of SAP data into Microsoft Excel. Developed
+                macros to automate repetitive tasks in Excel.
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">June 2021 - Present</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Mechatronics Developer</h3>
+              <div class="subheading mb-3">EXO Insights</div>
+              <p>
+                Designed a vibration-measuring device using an ESP32
+                microcontroller and Bluetooth communication hardware. Developed
+                software using Python to determine the frequency &amp; force of
+                the vibrations in addition to providing real-time data display
+                and exporting features. Conducted weekly presentations and
+                discussions to provide project updates to stakeholders.
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">August 2020 - June 2021</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Project Coordinator</h3>
+              <div class="subheading mb-3">PTN Electrical</div>
+              <p>
+                Prepared materials requirements and cost estimate documents for
+                upcoming projects and proposals. Met with customers to determine
+                scope and needs for residential and commercial electrical
+                projects. Coordinated with electricians to ensure project
+                timelines were being met and to resolve any obstacles
+                encountered.
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">July 2019 - August 2020</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Engineering Intern</h3>
+              <div class="subheading mb-3">Ontario Power Generation</div>
+              <p>
+                Prepared engineering design and risk analysis packages under the
+                supervision of licensed Professional Engineers. Coordinated with
+                contractors to ensure proposals, quotations, meeting minutes
+                were submitted and documented by all parties. Performed "Single
+                Point of Contact" role to maintain communications between
+                engineering and other work departments. Attended station
+                meetings and monitored a generic email address to ensure
+                emergent issues were promptly delegated and resolved.
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">May 2017 - September 2018</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="resume-section p-3 p-lg-5 d-flex flex-column"
+        id="education"
+      >
+        <div class="my-auto">
+          <h2 class="mb-5">Education</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">
+                University of Ontario Institute of Technology
+              </h3>
+              <div class="subheading mb-3">
+                Bachelor of Engineering (Honours) - Electrical Engineering
+              </div>
+              <p>GPA: 4.2/4.3</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">September 2014 - April 2019</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
+        <div class="my-auto">
+          <h2 class="mb-5">Awards &amp; Certifications</h2>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              Top 1% points leaderboard on TryHackMe
+            </li>
+            <li></li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              Google Analytics Certified Developer
+            </li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              Mobile Web Specialist - Google Certification
+            </li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              1<sup>st</sup> Place - University of Colorado Boulder - Emerging
+              Tech Competition 2009
+            </li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              1<sup>st</sup> Place - University of Colorado Boulder - Adobe
+              Creative Jam 2008 (UI Design Category)
+            </li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              2<sup>nd</sup> Place - University of Colorado Boulder - Emerging
+              Tech Competition 2008
+            </li>
+            <li></li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              1<sup>st</sup> Place - James Buchanan High School - Hackathon 2006
+            </li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              3<sup>rd</sup> Place - James Buchanan High School - Hackathon 2005
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <!-- <script src="js/resume.min.js"></script> -->
+    <script src="js/resume.js"></script>
+  </body>
+</html>
