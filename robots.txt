@@ -1,2 +1,2 @@
 User-agent: *
-Disallow: /files/Chris Brown Resume February 2024.pdf
+Disallow: /files/Chris Brown Resume September 2024.pdf
